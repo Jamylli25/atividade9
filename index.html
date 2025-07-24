@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flexbox</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 2rem;
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    img {
+      max-width: 50%;
+      height: auto;
+      border: 1px solid #ccc;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Flexbox com Jogos</h1>
+
+  <h2>👤 Nome: Jamylli Gabrielle Pereira Soares </h2>
+
+  <h2>🎮 Jogos Escolhidos</h2>
+  <ul>
+    <li><strong>Flexbox Froggy</strong> - <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br/>
+      <em>Escolhi esse jogo por ser didático, com uma curva de aprendizado progressiva e explicações claras dos comandos.</em>
+    </li>
+    <li><strong>Flexbox Adventure</strong> - <a href="https://codingfantasy.com/games/flexboxadventure/play" target="_blank">https://codingfantasy.com/games/flexboxadventure/play</a><br/>
+      <em>Escolhi esse jogo pelo aspecto lúdico e imersivo, tornando o aprendizado mais divertido.</em>
+    </li>
+  </ul>
+
+  <h2>📸 Registro de Níveis Desafiadores</h2>
+
+  <h3>🟢 Flexbox Froggy</h3>
+
+  <h4>Nível 10</h4>
+  <img src="img/flexboxfroggy-nivel10.png" alt="Flexbox Froggy Nível 10">
+  <p>Esse nível exigiu um bom entendimento do uso de `flex-direction` combinado com alinhamentos, algo que eu ainda estava assimilando.</p>
+
+  <h4>Nível 11</h4>
+  <img src="img/flexboxfroggy-nivel11.png" alt="Flexbox Froggy Nível 11">
+  <p>Foi desafiador usar `align-items` e `justify-content` ao mesmo tempo e visualizar o eixo principal e o cruzado corretamente.</p>
+
+  <h4>Nível 20</h4>
+  <img src="img/flexboxfroggy-nivel20.png" alt="Flexbox Froggy Nível 20">
+  <p>Esse nível me deixou em dúvida do quê usar, demorei para assimilar que era a junção dos dois comandos.</p>
+
+  <h3>🟡 Flexbox Adventure</h3>
+
+  <h4>Nível 5</h4>
+  <img src="img/flexboxadventure-nivel5.png" alt="Flexbox Adventure Nível 5">
+  <p>Foi necessário entender a diferença entre 'space-around' 'space-between' e 'space-evenly', o que confundiu a disposição dos elementos.</p>
+
+  <h4>Nível 7</h4>
+  <img src="img/flexboxadventure-nivel7.png" alt="Flexbox Adventure Nível 7">
+  <p>Desafio ao alinhar verticalmente os personagens usando `align-items: flex-start`, o eixo cruzado nem sempre é intuitivo.</p>
+
+  <h4>Nível 10</h4>
+  <img src="img/flexboxadventure-nivel10.png" alt="Flexbox Adventure Nível 10">
+  <p>Combinação de várias propriedades `flex-direction`, `justify-content`, `align-items` em um único nível exigiu mais atenção e testes.</p>
+
+  <h2>💡 Reflexão e Aplicação Prática</h2>
+
+  <h3>🔧 Propriedades CSS Utilizadas</h3>
+  <ul>
+    <li><code>display: flex</code> – transforma o container em um flex container.</li>
+    <li><code>justify-content</code> – alinha os itens no eixo principal.</li>
+    <li><code>align-items</code> – alinha os itens no eixo cruzado.</li>
+    <li><code>flex-direction</code> – define a direção do eixo principal (linha ou coluna).</li>
+    <li><code>align-self</code> – permite sobrescrever o alinhamento de um item individualmente.</li>
+    <li><code>flex-wrap</code> – permite que os itens quebrem linha quando necessário.</li>
+  </ul>
+
+  <h3>🧠 Caso Real: Menu de Navegação</h3>
+  <p>Em um menu de navegação horizontal, eu usaria Flexbox para alinhar os itens com `justify-content: space-between` para distribuir igualmente os links. Também usaria `align-items: center` para centralizar verticalmente os itens dentro do cabeçalho. Se fosse um menu responsivo, combinaria com `flex-wrap: wrap` para quebrar os itens quando a largura da tela for reduzida.</p>
+
+</body>
+</html>
